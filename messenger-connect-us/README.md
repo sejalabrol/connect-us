@@ -3,7 +3,7 @@ This is the Messenger component of the Connect Us App. It uses ReactJs, ChatEngi
 
 # Setup
 After cloning the repository, run -
-npm install
+npm install, 
 npm start
 
 # Demo
