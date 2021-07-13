@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+
+<head>
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-3XM60XK9RQ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
+
+    gtag("config", "G-3XM60XK9RQ");
+  </script>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Connect Us - Video and Text Chat</title>
+  <link rel="stylesheet" href="css/landing.css" />
+  <link rel="stylesheet" href="css/newcall.css" />
+  <link rel="shortcut icon" href="images/logo.svg" />
+
+</head>
+
+<body class="has-animations w3-bg-light-blue">
+  <br><br>
+  <section class="cta section center-content-mobile reveal-from-bottom">
+    <div class="container">
+      <div class="cta-inner section-inner cta-split">
+        <div class="cta-slogan">
+          <h3 class="m-0">
+            Enter room name<br />
+            Or you can choose this one.
+          </h3>
+        </div>
+        <div class="cta-action">
+          <div class="mb-24">
+            <label class="form-label screen-reader" for="roomName">connectUs</label>
+            <div class="form-group-desktop">
+              <input class="form-input" type="text" id="roomName" value="connectUs" />
+              <button class="button button-primary pulse"
+                onclick="{window.location.href = '/join/' + document.getElementById('roomName').value}">
+                Join to room
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="js/landing.js"></script>
+  <script src="js/newroom.js"></script>
+</body>
+
+</html>
