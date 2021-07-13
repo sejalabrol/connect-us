@@ -22,6 +22,8 @@ It offers a multitude of features like ->
 https://connect-us-text-and-video-chat.herokuapp.com/
 
 # Setup
-After cloning the repository, 
-The individual components can be run independently and have instructions on how to run them along with Demo links in their respective folder README.md
+- After cloning the repository, the individual components can be run independently and have instructions on how to run them along with Demo links and screenshots in their respective folder README.md
+- To run the project - cd connect-us-text-and-video-chat, npm install, npm start
+
+
 
